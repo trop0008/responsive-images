@@ -1,0 +1,84 @@
+/******************************
+
+All images used belong to:
+
+Markus Spiske - https://500px.com/markusspiske
+
+Yinan Chen - https://500px.com/webmaster85
+
+Fahim Akhter - https://500px.com/fahimakhter
+
+*******************************/
+html {
+    
+    font-size: 16px;
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    font-size:1 em;
+    color: #555;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 95%;
+    margin: 0.5em auto;
+}
+ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+    
+}
+li{
+    width: 100%;
+    list-style: none;
+    float: left;
+    margin: auto;
+    text-align: center;
+    padding: 1em 0;
+    
+}
+picture, img{
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+footer{
+    clear: both;
+}
+
+@media screen and (min-width: 600px){
+    body{
+        font-size: 1.5 em;
+    }
+    h1 {
+    font-size: 2.5em;
+    text-align: center;
+    
+}
+    li{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        font-size: 1.75 em;
+    }
+    h1 {
+    font-size: 3em;
+    text-align: center;
+    
+}
+    li{
+        width: 25%;
+    }  
+}
