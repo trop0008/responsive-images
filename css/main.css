@@ -58,8 +58,10 @@ picture, img{
     max-width: 90%;
     height: auto;
     border-radius: 15px;
+    
   
 }
+
 footer{
      border-top: 2px solid #555;
     clear: both;
@@ -102,4 +104,15 @@ footer{
     li{
         width: 25%;
     }  
+    
+    
+picture, img{
+   
+    transition: all 0.4s ease; 
+    cursor:zoom-in;
+  
+}
+picture, img:hover {
+    transform: scale(1.5);
+}
 }
